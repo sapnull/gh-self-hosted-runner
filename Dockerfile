@@ -1,5 +1,5 @@
 # Write a docker file for github self-hosted runner with Debian 12 slim
-FROM debian:12-slim
+FROM docker.io/library/debian:12-slim
 
 # Install GitHub Actions Runner 
 ARG RUNNER_VERSION="2.322.0"
